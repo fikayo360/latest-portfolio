@@ -1,0 +1,73 @@
+#projects{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    margin-bottom: 6rem;
+  }
+  
+  #projectsWrap{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .project{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+  }
+
+  .project .projectUp, .project .projectDown{
+    width: 100%;
+    height: auto;
+    border:0.5px solid grey;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+  }
+
+  .project .projectUp{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pdWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+
+  .pdWrapLeft{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  @media (max-width:1024px){
+    .pdWrap{
+    flex-direction: column;
+    gap: 1rem;
+    }
+
+    .pdWrapLeft{
+      width: 100%;
+    }
+    #projects{
+      padding-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .project{
+      width: 98%;
+    }
+  }
