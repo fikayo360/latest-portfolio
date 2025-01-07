@@ -44,8 +44,7 @@ const Hero = () => {
                 deployment</div>
                 </div>
 
-                <p className='fs-800'>
-                Hi, I’m Fikayo, a Nigerian software engineer currently residing in Lagos state Nigeria. with experience in building and deploying web applications, mobile applications, and 
+                <p className='fs-800'>Hi, I’m Fikayo, a Nigerian software engineer currently residing in Lagos state Nigeria. with experience in building and deploying web applications, mobile applications, and 
                 server side applications (APis, Clis, and bots), Web scrapping and browser automation. I love to push myself and I am always looking for new challenges and opportunities to learn and grow.
                 So, whether you're looking for a skilled developer to tackle your next project or simply someone passionate about the future of web development, I'd love to connect.
                 </p>

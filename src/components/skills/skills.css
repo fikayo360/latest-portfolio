@@ -27,6 +27,7 @@
 
 .skill h1{
     font-size: var(--fs-400);
+    font-weight: bold;
 }
 
 .skill img{
