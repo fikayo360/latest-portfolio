@@ -73,7 +73,7 @@
     height: 2rem;
   }
 
-  .downBio h1{
+  .downBio h1,.date{
     color: rgb(198, 202, 206);
   }
 

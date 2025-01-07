@@ -26,7 +26,7 @@ const Hero = () => {
             <div id='heroWrap'>
                 <nav>
                     <div id='navWrap'>
-                        <h1>Fikayo</h1>
+                        <h1 className='fs-500'>Fikayo</h1>
                         <ul>
                             <li><Link to="/articles">articles</Link></li>
                             <li><a>projects</a></li>

@@ -44,4 +44,12 @@
     #skills{
         padding-bottom: 2rem;
     }
+
+    #skillsWrap{
+        padding: 0rem;
+    }
+
+    .skill{
+        width: 90%;
+    }
 }

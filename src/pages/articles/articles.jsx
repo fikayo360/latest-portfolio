@@ -1,155 +1,43 @@
 import { Link } from "react-router-dom"
 import './articles.css'
 const Articles = () => {
+
       const ismobile = () => window.innerWidth < 768
+
+      const today = new Date()
+
+      const formatDate = (date) => {
+        const currentDate = date;
+        const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+        const day = String(currentDate.getDate()).padStart(2, '0');
+        const year = String(currentDate.getFullYear()).slice(-2); 
+        
+        const formattedDate = `${month}/${day}/${year}`;
+        return formattedDate
+      }
+
     return (
         <section id="articles">
             <div id='articlesWrap'>
                 <h1 className="fs-500">Fikayo's engineering blog</h1>
                 
-                    <Link to='/article/first'>
+                    <Link to='/article/designPatterns'>
                     <div className='articles'>
                         <div className="articlesUp">
                             <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
                         </div>
                         <div className="down">
-                            <h1 className="fs-500">The travails of bro jero </h1>
+                            <h1 className="fs-500">Design patterns </h1>
                             <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
+                            Design patterns are a vital part of software engineering, they offer battle tested solutions to common problems in software engineering. 
+                            They act as templates for solving recurring issues, helping developers build more scalable, maintainable, 
+                            and efficient software systems.
                             </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
+                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">fikayo Adele. {formatDate(today)} </h1></div>
                         </div>
                     </div>
                     </Link>  
 
-                   
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>   
-
-                  
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>  
-
-                    
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>  
-                  
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>  
-
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>  
-
-                
-                    <Link>
-                    <div className='articles'>
-                        <div className="articlesUp">
-                            <img src="image1.jpg" style={{ width: '100%',height:'100%' }} />
-                        </div>
-                        <div className="down">
-                            <h1 className="fs-400">The travails of bro jero </h1>
-                            <p className="truncate">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ratione maxime 
-                                accusantium consequuntur ipsa pariatur fuga nostrum minima deleniti sint. Minima ipsum, neque sit ullam aut suscipit maiores perspiciatis dolores.
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae distinctio nobis, cum non obcaecati ea corrupti blanditiis, laborum veniam, dicta odit.
-                                 Et repudiandae voluptatem alias maxime ipsam accusamus adipisci assumenda?
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus architecto ipsum labore eveniet sequi veniam vitae reprehenderit voluptatem! Dolore fugiat eveniet, 
-                                 cumque fugit esse sit voluptates voluptatum nulla magni?
-                            </p>
-                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">written by fikayo </h1></div>
-                        </div>
-                    </div>
-                    </Link>  
                 </div>
         </section>
     )
