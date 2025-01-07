@@ -19,7 +19,8 @@
   background-color: rgba(37, 37, 37, 0.925);
   height: auto;
   display: flex;
-  position: absolute;
+  position: fixed;
+  top: 0;
   z-index: 2;
 }
 
@@ -33,7 +34,7 @@
 
 #nMobileHead{
   display: flex;
-  width: 100%;
+  width: 98%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
