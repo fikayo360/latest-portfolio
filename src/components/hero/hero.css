@@ -108,7 +108,7 @@
   /* Animated text */
   .text-track {
     display: inline-block;
-    padding-left: 2%; /* Start from outside the container */
+    padding-left: 20%; /* Start from outside the container */
     animation: scrollText 75s linear infinite; /* Animation settings */
     font-weight: 900;
   }
@@ -129,8 +129,8 @@
 
   @media (max-width:1024px){
     #hero{
-      min-height: 90vh;
-      margin-bottom: 2rem;
+      min-height: 50vh;
+      margin-bottom: 4rem;
     }
 
     #heroWrap{
@@ -149,7 +149,7 @@
      }
 
      #heroWrap p{
-      width: 97%;
+      width: 100%;
       margin-left: 0rem;
     }
   }

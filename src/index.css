@@ -13,11 +13,11 @@
   
   /* font-sizes */
   --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
-  --fs-800: clamp(1.5rem, 1rem, 3.6rem);
-  --fs-700: clamp(1.5rem, 1rem, 2.6rem);
-  --fs-600: clamp(1.5rem, 1rem, 2.4rem);
-  --fs-500: clamp(1.5rem, 1rem, 1.8rem);
-  --fs-400: clamp(1.3rem, 1rem, 1.5rem);
+  --fs-800: clamp(0.7rem, 1rem, 3.6rem);
+  --fs-700: clamp(0.7rem, 1rem, 2.6rem);
+  --fs-600: clamp(0.7rem, 1rem, 2.4rem);
+  --fs-500: clamp(0.7rem, 1rem, 1.8rem);
+  --fs-400: clamp(0.7rem, 1rem, 1.5rem);
   --fs-300: clamp(0.7rem, 1rem, 1.5rem);
   --fs-200: clamp(0.7rem, 1rem, 1.3rem);
   

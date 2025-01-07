@@ -1,0 +1,26 @@
+.text-track-container {
+    font-family: var(--ff-oswald);
+  }
+
+  .fadeTrack{
+    color: grey;
+  }
+
+  .trackText{
+    color: inherit; 
+    font-size: 5rem;
+  }
+
+  .slick-slide{
+    width: max-content;
+    background-color: aqua;
+  }
+
+  .slider-container{
+    position: relative; /* Needed for precise animation positioning */
+    width: 100%; /* Full width of the container */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    color: inherit; /* Text color */
+    margin-bottom: 5rem;
+  }

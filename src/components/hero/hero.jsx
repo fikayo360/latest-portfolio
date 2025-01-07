@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './hero.css'
 import { useState,useEffect,useRef } from 'react'
+import AutoPlay from '../track/track';
 
 const Hero = () => {
     const [isNavActive, setIsNavActive] = useState(false)

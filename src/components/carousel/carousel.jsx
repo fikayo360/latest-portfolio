@@ -32,7 +32,7 @@ function Carousel({images}) {
   
   
     return (
-      <div style={{ width: isMobile ? '95%' : '38%', margin: '0 auto' }}>
+      <div style={{ width: isMobile ? '95%' : '40%', margin: '0 auto' }}>
         <Slider {...settings}>
         {images.length > 1 
           ? images.map((image, index) => (
