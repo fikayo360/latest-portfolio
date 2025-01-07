@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1>My Projects</h1>
                 <div className='project'>
                     <div className='projectUp'>
-                        <h1>Job scrapper bot</h1>
+                        <h1>Job scrapper</h1>
                         <div><a>github</a><img /></div>
                    </div>
                    <div className="projectDown">
@@ -28,7 +28,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <div className='projectUp'>
-                        <h1>fintech wallet api</h1>
+                        <h1>wallet api</h1>
                         <div><a>github</a><img /></div>
                    </div>
                    <div className="projectDown">
@@ -50,7 +50,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <div className='projectUp'>
-                        <h1>real estate listings scrapper</h1>
+                        <h1>real estate scrapper</h1>
                         <div><a>github</a><img /></div>
                    </div>
                    <div className="projectDown">
@@ -90,7 +90,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <div className='projectUp'>
-                        <h1>sentiment analysis for product reviews </h1>
+                        <h1>NLP sentiment reviews </h1>
                         <div><a>github</a><img /></div>
                    </div>
                    <div className="projectDown">

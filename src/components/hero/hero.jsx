@@ -27,7 +27,7 @@ const Hero = () => {
             <div id='heroWrap'>
                 <nav>
                     <div id='navWrap'>
-                        <h1 className='fs-500'>Fikayo</h1>
+                        <h1 className='fs-400'>Fikayo</h1>
                         <ul>
                             <li><Link to="/articles">articles</Link></li>
                             <li><a>projects</a></li>
@@ -41,8 +41,7 @@ const Hero = () => {
                 <div class="text-track-container">
                 <div class="text-track">Frontend  <span className='fadeTrack'>Backend</span>  Mobile-apps  <span className='fadeTrack'>Web scrapping</span> Automations
                 React <span className='fadeTrack'>NodeJs</span> typescript <span className='fadeTrack'>javascript</span> relationalDB <span className='fadeTrack'></span>scaling 
-                deployment
-                </div>
+                deployment</div>
                 </div>
 
                 <p className='fs-800'>
