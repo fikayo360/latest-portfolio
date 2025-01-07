@@ -72,8 +72,9 @@
     height: auto;
     background-color: transparent;
     padding: 1rem;
-    border: 2px solid grey;
+    border: 0.5px solid grey;
     border-radius: 5px;
+    outline: none;
 }
 
 #middle form input::placeholder{
@@ -145,15 +146,15 @@
     }
 
     #middle form input{
-        width: 80%;
+        width: 90%;
     }
     
     #middle form textarea{
-        width:80%
+        width:90%
     }
 
     #middle form button{
-        width: 80%;
+        width: 90%;
     }
     
 }
