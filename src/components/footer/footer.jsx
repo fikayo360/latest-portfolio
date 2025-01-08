@@ -28,7 +28,7 @@ const Footer = () => {
 
         }, (error) => {
             console.log(error.text);
-            setNot('error occured')
+            setNot(error.text) && setNot('an error occurred')
             setSucess(false)
             setBtnState('submit')
         });

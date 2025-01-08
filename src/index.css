@@ -14,10 +14,10 @@
   /* font-sizes */
   --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
   --fs-800: clamp(0.7rem, 1rem, 7rem);
-  --fs-700: clamp(0.7rem, 1rem, 2.6rem);
-  --fs-600: clamp(0.7rem, 1rem, 2.4rem);
-  --fs-500: clamp(0.7rem, 1rem, 1.8rem);
-  --fs-400: clamp(0.7rem, 1rem, 1.5rem);
+  --fs-700: clamp(0.7rem, 1rem, 2.5rem);
+  --fs-600: clamp(0.7rem, 1rem, 2.2rem);
+  --fs-500: clamp(0.7rem, 1rem, 1.9rem);
+  --fs-400: clamp(0.7rem, 1rem, 1.7rem);
   --fs-300: clamp(0.7rem, 1rem, 1.5rem);
   --fs-200: clamp(0.7rem, 1rem, 1.3rem);
   
@@ -61,7 +61,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
+{
+  font-weight: 800;
+}
+
+h1{
+  font-size: var(--fs-400);
+}
 p {
     font-weight: 400;
 }
