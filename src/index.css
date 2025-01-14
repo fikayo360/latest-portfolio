@@ -141,6 +141,9 @@ button {
   transition: border-color 0.25s;
 }
 
+ul,ol{
+  padding-left: 0;
+}
 
 /* font sizing */
 .fs-900 {
