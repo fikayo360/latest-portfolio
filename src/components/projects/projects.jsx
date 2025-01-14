@@ -10,7 +10,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>Job scrapper</h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/web-scrapping-projects/blob/main/glassdoor.js">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">
@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>wallet api</h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/fintechAppServer">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">
@@ -51,7 +51,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>real estate scrapper</h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/web-scrapping-projects/blob/main/realEstateListings.js">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">
@@ -71,7 +71,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>Price monitoring bot</h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/web-scrapping-projects/blob/main/priceMonitor.js">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">
@@ -91,7 +91,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>NLP sentiment reviews </h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/web-scrapping-projects/blob/main/trackingCustomerReviews.js">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">
@@ -111,7 +111,7 @@ const Projects = () => {
                 <div className='project'>
                     <div className='projectUp'>
                         <h1>chat messaging cli </h1>
-                        <div><a>github</a><img /></div>
+                        <div><a href="https://github.com/fikayo360/commandLineChat">github</a><img /></div>
                    </div>
                    <div className="projectDown">
                         <div className="pdWrap">

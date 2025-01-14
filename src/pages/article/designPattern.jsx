@@ -5,8 +5,8 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 const DesignPatterns = () => {
 
     return (
-        <section id="article">
-            <div id='articleWrap'>
+        <section className="article">
+            <div className='articleWrap'>
                 <h1 className='headerTxt'>Design Patterns: An Overview</h1>
                 <h1 className='fs-200'>15 minutes read</h1>
                 <img 
@@ -171,39 +171,6 @@ const DesignPatterns = () => {
         </section>
     )
 }
-
-<SyntaxHighlighter language="javascript" >
-{`
-// 👎 Don't validate requests explicitly
-const createUserHandler = (req, res) => {
-const { name, email, phone } = req.body
-if (name && isValidName(name) && email && isValidEmail(email)) {
-userService.create({
-userName,
-email,
-phone,
-status,
-})
-}
-
-// Handle error...
-}
-
-// 👍 Use a library to validate and generate more descriptive messages
-const schema = Joi.object().keys({
-name: Joi.string().required(),
-email: Joi.string().email().required(),
-phone: Joi.string()
-.regex(/^\\d{3}-\\d{3}-\\d{4}$/)
-.required(),
-})
-
-const createUserHandler = (req, res) => {
-const { error, value } = schema.validate(req.body)
-// Handle error...
-}
-    `}
-</SyntaxHighlighter>
 
 export default DesignPatterns
 
