@@ -2,7 +2,8 @@ import Landing from './pages/landingPage/landing'
 import Articles from './pages/articles/articles';
 import NotFound from './pages/404/404';
 import FirstArticle from './pages/article/designPattern';
-import Singleton from './pages/article/singletonDesignPattern';
+import { PriceMonitor } from './pages/article/pricemonitoringbot';
+import RealEstateListings from './pages/article/realEstateListings';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="article/designPatterns" element={<FirstArticle />} />
-        <Route path="article/singleton-design-pattern" element={<Singleton/>} />
-        
+        <Route path="article/Building a price monitoring bot" element={<PriceMonitor/>} />
+        <Route path="article/Building a real estate listings scrapper" element={<RealEstateListings/>} />
         {/* Fallback route for 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,6 +1,7 @@
 import Carousel from "../carousel/carousel"
 import './projects.css'
 import projectImages from "../../images"
+import { Link } from "react-router-dom"
 
 const Projects = () => {
     return (
@@ -81,6 +82,7 @@ const Projects = () => {
                                 Description: Created a bot to track and monitor prices of products across e-commerce platforms. the bot periodically checks for the prices of competing products 
                                 it then compares the prices with the existing prices in the db to see if there is a change in the price.it also identifies other useful trends in the data.
                                 </p>
+                                <Link to='article/Building a price monitoring bot'>Read more</Link>
                                
                             </div>
                             <Carousel images={projectImages[3].images}/>

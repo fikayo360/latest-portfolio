@@ -18,8 +18,8 @@ const Hero = () => {
                     <div id='nMobileHead'><h1 className='fs-500'>fikayo.</h1><img src='close.png' onClick={toggleNav}/></div>
                     <ul>
                     <li className='fs-700'><Link to="/articles">articles</Link></li>
-                    <li className='fs-700'><a href="/#projects">projects</a></li>
-                    <li className='fs-700'><a href='/#skills'>skills</a></li>
+                    <li className='fs-700'><a href="#projects">projects</a></li>
+                    <li className='fs-700'><a href='#skills'>skills</a></li>
                     </ul>
                 </div>
             </div>:null }
@@ -30,8 +30,8 @@ const Hero = () => {
                         <h1 className='fs-400'>Fikayo</h1>
                         <ul>
                             <li><Link to="/articles">articles</Link></li>
-                            <li><a>projects</a></li>
-                            <li><a>skills</a></li>
+                            <li><a href="#projects">projects</a></li>
+                            <li><a href='#skills'>skills</a></li>
                         </ul>
                         <img src='burger.png' onClick={toggleNav}/>
                     </div>

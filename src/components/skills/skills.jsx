@@ -1,7 +1,7 @@
 import './skills.css'
 const Skills = () => {
     return (
-        <section className="skills">
+        <section id="skills">
             <div id='skillsWrap'>
                 <h1>My Skills</h1>
                 <div className="skill">

@@ -24,20 +24,38 @@ const Articles = () => {
                         </div>
                     </div>
                     </Link>  
-
-                    <Link to='/article/singleton-design-pattern'>
+                    
+                    <Link to='/article/Building a price monitoring bot'>
                     <div className='articles'>
                         <div className="articlesUp">
-                            <img src="https://refactoring.guru/images/patterns/content/singleton/singleton-3x.png" 
+                            <img src="https://lh3.googleusercontent.com/1gF3wlTOwZbSXXoFbMg0b5EHNtLnQgxWCorZ29qIZFxNvSvxjYoCn1S5SewVVSh0US_quNnAv9VMmZ-hzcJZ3Ep1XA=s1280-w1280-h800" 
                             style={{ width: '100%',height:'100%' }} />
                         </div>
                         <div className="down">
-                            <h1 className="fs-500">Singleton Design pattern </h1>
+                            <h1 className="fs-500">Builing a price monitoring Bot</h1>
                             <p className="truncate">
-                            The Singleton Design Pattern is one of the most commonly used patterns in software development. 
-                            It ensures that a class has only one instance while providing a global point of access to that instance. 
-                            This pattern is particularly useful when managing shared resources,
-                            such as configuration settings or a logging mechanism, where multiple instances could lead to inconsistency or excessive resource usage.
+                             In an era of dynamic pricing, staying updated on price changes is crucial for businesses and consumers alike.
+                             Whether it’s for tracking competitor prices, monitoring product deals, or alerting users about price drops, a price monitoring bot can be a game-changer. 
+                             This article walks you through building an efficient price monitoring bot using Node.js and Puppeteer, along with practical tips and use cases.
+                            </p>
+                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">fikayo Adele</h1></div>
+                        </div>
+                    </div>
+                    </Link>  
+
+                    <Link to='/article/Building a real estate listings scrapper'>
+                    <div className='articles'>
+                        <div className="articlesUp">
+                            <img src="/estate1.png" 
+                            style={{ width: '100%',height:'100%' }} />
+                        </div>
+                        <div className="down">
+                            <h1 className="fs-500">Builing a Real estate listings scrapper</h1>
+                            <p className="truncate">
+                            In the competitive real estate market, having access to the latest property listings can give businesses and individuals a significant edge.
+                            Whether you're a real estate investor, a market researcher, or a developer building a property comparison tool, a real estate listings scraper can 
+                            automate the process of collecting property data from websites. 
+                            Here's how we built a real estate scraper, the steps we followed, and the benefits it offers.
                             </p>
                             <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">fikayo Adele</h1></div>
                         </div>
