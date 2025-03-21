@@ -165,8 +165,6 @@ const DesignPatterns = () => {
                     Visitor: Allows adding new operations to existing object structures without modifying them.
                     </li>
                 </ol>
-
-                <p>i will be breaking down and talking about each design pattern in coming episodes</p>
             </div>
         </section>
     )

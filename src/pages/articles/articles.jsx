@@ -32,7 +32,7 @@ const Articles = () => {
                             style={{ width: '100%',height:'100%' }} />
                         </div>
                         <div className="down">
-                            <h1 className="fs-500">Builing a price monitoring Bot</h1>
+                            <h1 className="fs-500">Builing an ecommerce price monitoring Bot</h1>
                             <p className="truncate">
                              In an era of dynamic pricing, staying updated on price changes is crucial for businesses and consumers alike.
                              Whether it’s for tracking competitor prices, monitoring product deals, or alerting users about price drops, a price monitoring bot can be a game-changer. 
@@ -56,6 +56,23 @@ const Articles = () => {
                             Whether you're a real estate investor, a market researcher, or a developer building a property comparison tool, a real estate listings scraper can 
                             automate the process of collecting property data from websites. 
                             Here's how we built a real estate scraper, the steps we followed, and the benefits it offers.
+                            </p>
+                            <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">fikayo Adele</h1></div>
+                        </div>
+                    </div>
+                    </Link>  
+
+                    <Link to='/article/job scrapping bot'>
+                    <div className='articles'>
+                        <div className="articlesUp">
+                            <img src="/jp1.png" 
+                            style={{ width: '100%',height:'100%' }} />
+                        </div>
+                        <div className="down">
+                            <h1 className="fs-500">Builing a job scrapping bot</h1>
+                            <p className="truncate">
+                            Web scraping is a powerful tool for automating data collection, and in this project, we built a bot using Puppeteer to periodically scrape job listings from Glassdoor.com.
+                            The bot extracts key job attributes such as titles, companies, salaries, and descriptions, then saves them in a structured spreadsheet file.
                             </p>
                             <div className="downBio"> <img src='fikayo.png'/><h1 className="fs-200">fikayo Adele</h1></div>
                         </div>

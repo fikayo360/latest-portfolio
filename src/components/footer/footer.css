@@ -43,6 +43,10 @@
     align-items: flex-start;
 }
 
+.upRightSocialConts h1{
+    margin-bottom: 1rem;
+}
+
 .upRightSocialConts ul{
     width: 100%;
     height: auto;
@@ -72,7 +76,7 @@
     height: auto;
     background-color: transparent;
     padding: 1rem;
-    border: 0.5px solid grey;
+    border: 1.1px solid rgb(238, 236, 236);
     border-radius: 5px;
     outline: none;
 }
@@ -96,12 +100,12 @@
 #middle form button{
     color: var(--clr-light);
     width: 7rem;
-    padding: 1rem;
-    background-color: rgb(82, 5, 88);
+    padding: 0.8rem;
+    background-color: rgba(238, 7, 7, 0.76);
 }
 
 #middle form button:hover{
-    background-color: rgb(48, 10, 83);
+    background-color: rgb(238, 7, 7);
 }
 
 #down{

@@ -21,6 +21,7 @@ const Projects = () => {
                                 Description: Built a bot using Puppeteer to peridoically scrape job listings, from Glassdoor.com 
                                 it ascrapes attributes including job titles, companies, salaries, and descriptions. and saves it in a spreadsheet file.
                                 </p>
+                                <Link to='article/job scrapping bot'>Read more</Link>
                             </div>
                             <Carousel images={projectImages[0].images}/>
                         </div>
